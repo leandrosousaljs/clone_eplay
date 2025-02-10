@@ -20,7 +20,6 @@ export const HeaderBar = styled.header`
 
   a {
     color: ${colors.white};
-    text-decoration: none;
     font-weight: bold;
   }
 `
@@ -69,7 +68,6 @@ export const LinkItem = styled.li`
 
 export const CartButton = styled.a`
   display: flex;
-  cursor: pointer;
 
   img {
     margin-left: 16px;
